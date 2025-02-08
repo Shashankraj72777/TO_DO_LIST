@@ -4,8 +4,13 @@ A simple, interactive, and stylish To-Do List web application built using HTML, 
 
 🎯 Features
 ✔️ Add new tasks by pressing Enter or clicking the "Add" button
+
 ✔️ Save tasks in Local Storage (persistent even after page refresh)
+
 ✔️ Mark tasks as completed or incomplete
+
 ✔️ Delete tasks when no longer needed
+
 ✔️ Attractive and colorful UI/UX
+
 ✔️ SEO-friendly structure
