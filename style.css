@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #4caf50;
+    background-color: #040504;
     color: white;
     padding: 20px 0;
 }
@@ -49,7 +49,7 @@ input:focus {
 
 button {
     padding: 12px 20px;
-    background-color: #4caf50;
+    background-color: #0f1c0f;
     color: white;
     border: none;
     border-radius: 8px;
@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #d9e007;
 }
 
 /* Task List Styling */
@@ -111,7 +111,7 @@ li button.complete:hover {
 
 /* Footer */
 footer {
-    background-color: #4caf50;
+    background-color: #030403;
     color: white;
     padding: 10px 0;
     position: fixed;
