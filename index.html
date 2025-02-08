@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple, colorful, and interactive to-do list app to manage your tasks.">
+    <meta name="keywords" content="To-Do List, Task Manager, Productivity, Web App">
+    <meta name="author" content="Shashank Raj">
+    <meta property="og:title" content="To-Do List">
+    <meta property="og:description" content="Manage your tasks efficiently with our simple and interactive to-do list app.">
+    <meta property="og:image" content="path/to/image.jpg">
+    <title>To-Do List - Manage Your Tasks</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive To-Do List</h1>
+        <p class="subheading">Stay productive by organizing your tasks efficiently.</p>
+    </header>
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="Enter a task" onkeydown="checkEnter(event)">
+        <button onclick="addTask()">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+    <footer>
+        <p>&copy; 2025 YourToDoApp. All rights reserved. | 
+            <a href="mailto:your-email@example.com">Contact Us</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
